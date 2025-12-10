@@ -4,28 +4,28 @@
     xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion"
     xmlns:ds="http://www.w3.org/2000/09/xmldsig#"
     xmlns:spid="https://spid.gov.it/saml-extensions"
-    entityID="https://sp.myservice.it"
-    ID="_[UNIQUE_ENTITY_ID_STRING_REQUIRED]"
-    validUntil="[YYYY-MM-DDTHH:MM:SSZ]">
+    entityID="https://blugo.it"
+    ID="https://blugo.it"
+    >
 
     <ds:Signature>
         <ds:SignedInfo>
             <ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-c14n#"/>
             <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
-            <ds:Reference URI="#_[UNIQUE_ENTITY_ID_STRING_REQUIRED]">
+            <ds:Reference URI="https://blugo.it">
                 <ds:Transforms>
                     <ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
                     <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-c14n#"/>
                 </ds:Transforms>
                 <ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
-                <ds:DigestValue>[DIGEST_VALUE]</ds:DigestValue>
+                <ds:DigestValue>MIIGUTCCBLmgAwIBAgIUDyYa6sa/jitstn5CD1EfgnqfweAwDQYJKoZIhvcNAQELBQAwgZgxJDAiBg</ds:DigestValue>
             </ds:Reference>
         </ds:SignedInfo>
-        <ds:SignatureValue>[SIGNATURE_VALUE]</ds:SignatureValue>
+        <ds:SignatureValue>MIIGUTCCBLmgAwIBAgIUDyYa6sa/jitstn5CD1EfgnqfweAwDQYJKoZIhvcNAQELBQAwgZgxJDAiBg</ds:SignatureValue>
         <ds:KeyInfo>
             <ds:X509Data>
                 <ds:X509Certificate>
-                    [BASE64_ENCODED_X509_CERTIFICATE]
+MIIGUTCCBLmgAwIBAgIUDyYa6sa/jitstn5CD1EfgnqfweAwDQYJKoZIhvcNAQELBQAwgZgxJDAiBgNVBAoMG0EgQ29tcGFueSBNYWtpbmcgRXZlcnl0aGluZzEQMA4GA1UEAwwHQS5DLk0uRTEmMCQGA1UEUwwdaHR0cHM6Ly9zcGlkLmFjbWUuaXQvbWV0YWRhdGExGjAYBgNVBGEMEVZBVElULTEyMzQ1Njc4OTAxMQswCQYDVQQGEwJJVDENMAsGA1UEBwwEUm9tYTAeFw0yNTEyMDUxMDI5MjVaFw0yNjEyMDUxMDI5MjVaMIGYMSQwIgYDVQQKDBtBIENvbXBhbnkgTWFraW5nIEV2ZXJ5dGhpbmcxEDAOBgNVBAMMB0EuQy5NLkUxJjAkBgNVBFMMHWh0dHBzOi8vc3BpZC5hY21lLml0L21ldGFkYXRhMRowGAYDVQRhDBFWQVRJVC0xMjM0NTY3ODkwMTELMAkGA1UEBhMCSVQxDTALBgNVBAcMBFJvbWEwggGiMA0GCSqGSIb3DQEBAQUAA4IBjwAwggGKAoIBgQD6Fsi+ELrB6onjZ9fnSc95UPiIv0myFsyAnTk/KiRE/74JbApDI8FrQFiMdrqdHcKM42ESqzyJoxOXUF5RYFYFqa06ofZ++lBcNsYHYhZMf+HSKx5lWm9If9RwjIAwd4yjezECnDwAVJLtHqhgAXpWEESmkQWT3h5x/qol4kO8F+uSWC1aCDmF2w3+eyKgkTOfNcKH6tR7fQQwljrEVwOUYRjWwDPYpKt0JnnN/cCFMopAegKT3lIPS/Mk7StwWsrGFCLdwAvFx+vb0xEPNLCeXD0Z17FySUU4LO7QjtpdEo+9A4lrDuOOwySxid/umPQAjUpfoGt/4IYAJ+bY4QLRkOoh7F1ysDe+lBkFnSWOINe1bb8+xHj7kkx0A13KQlSo+k4mtw1BwC40mTMpG7CtsZ80xw5d6dg7D7Yp1JOArKBFhgC7k14vWtgnygn2UBnGwHCqkaSz9C6iHdJsC7CyzsrVBuSZQjM1E1UNe+xipAfl5sdb3UXoMu2eACdkiuUCAwEAAaOCAY8wggGLMAkGA1UdEwQCMAAwDgYDVR0PAQH/BAQDAgbAMHQGA1UdIARtMGswHwYD*K0wQMBgwFgYIKwYBBQUHAgIwCgwIQWdJRHJvb3QwIAYEK0wQBjAYMBYGCCsGAQUFBwICMAoMCGFnSURjZXJ0MCYGBitMEAQDATAcMBoGCCsGAQUFBwICMA4MDGNlcnRfU1BfUHJpdjAdBgNVHQ4EFgQUGrkcbA0Yo8KyEAGAQNBzP39B8aQwgdgGA1UdIwSB0DCBzYAUGrkcbA0Yo8KyEAGAQNBzP39B8aShgZ6kgZswgZgxJDAiBgNVBAoMG0EgQ29tcGFueSBNYWtpbmcgRXZlcnl0aGluZzEQMA4GA1UEAwwHQS5DLk0uRTEmMCQGA1UEUwwdaHR0cHM6Ly9zcGlkLmFjbWUuaXQvbWV0YWRhdGExGjAYBgNVBGEMEVZBVElULTEyMzQ1Njc4OTAxMQswCQYDVQQGEwJJVDENMAsGA1UEBwwEUm9tYYIUDyYa6sa/jitstn5CD1EfgnqfweAwDQYJKoZIhvcNAQELBQADggGBAPZM2/vygD4ZbLa/ovbMHQULMv+9pHd7hBRM2wrD+BXyNmLR6S2JpJfAaD5ecsuRWEaVF3cemZgtrinGsX82qOxeSgAvJtyHfKmyKgip4eGWXBaBz8lwEgoMOJvpdHH2BBG1ixVwzXUDtDxqhCEVim7qTgV37M6fGxr3yzA28Q3LIHXeDb4cKCaElygxvWgTTiLmNiuSFzF2svbIL1thFkHDHQ2ETdkXOW7OBgG/XfhlzX6o5gcM/wDEaPW1+2v7z6EG1QkYcmyzvZ+ZQsafYR/Ps+cIaWhd4k3eQZmzqOsAvd5lRXgtnmXAQ7n70OfWIPT7H1zIgTKxR0ahobC3pJZT1nAn+IKHL7i8+Y50LKM8QOpvnWfGJr3MBiWSVJgpa7nREQFwllHVTGvVG+AeI0rzzTNKC98/ecq5hw1REkeTCTUCAbiyntbsGvVVSjt3ZnP6XZb1F1RmOEzthwyk/b39VnRKosA86a3IE1r6WgRhdPrjeR9SSRXO5cLYb8W++w==
                 </ds:X509Certificate>
             </ds:X509Data>
         </ds:KeyInfo>
@@ -44,7 +44,7 @@
             <ds:KeyInfo>
                 <ds:X509Data>
                     <ds:X509Certificate>
-                        [BASE64_ENCODED_X509_CERTIFICATE]
+MIIGUTCCBLmgAwIBAgIUDyYa6sa/jitstn5CD1EfgnqfweAwDQYJKoZIhvcNAQELBQAwgZgxJDAiBgNVBAoMG0EgQ29tcGFueSBNYWtpbmcgRXZlcnl0aGluZzEQMA4GA1UEAwwHQS5DLk0uRTEmMCQGA1UEUwwdaHR0cHM6Ly9zcGlkLmFjbWUuaXQvbWV0YWRhdGExGjAYBgNVBGEMEVZBVElULTEyMzQ1Njc4OTAxMQswCQYDVQQGEwJJVDENMAsGA1UEBwwEUm9tYTAeFw0yNTEyMDUxMDI5MjVaFw0yNjEyMDUxMDI5MjVaMIGYMSQwIgYDVQQKDBtBIENvbXBhbnkgTWFraW5nIEV2ZXJ5dGhpbmcxEDAOBgNVBAMMB0EuQy5NLkUxJjAkBgNVBFMMHWh0dHBzOi8vc3BpZC5hY21lLml0L21ldGFkYXRhMRowGAYDVQRhDBFWQVRJVC0xMjM0NTY3ODkwMTELMAkGA1UEBhMCSVQxDTALBgNVBAcMBFJvbWEwggGiMA0GCSqGSIb3DQEBAQUAA4IBjwAwggGKAoIBgQD6Fsi+ELrB6onjZ9fnSc95UPiIv0myFsyAnTk/KiRE/74JbApDI8FrQFiMdrqdHcKM42ESqzyJoxOXUF5RYFYFqa06ofZ++lBcNsYHYhZMf+HSKx5lWm9If9RwjIAwd4yjezECnDwAVJLtHqhgAXpWEESmkQWT3h5x/qol4kO8F+uSWC1aCDmF2w3+eyKgkTOfNcKH6tR7fQQwljrEVwOUYRjWwDPYpKt0JnnN/cCFMopAegKT3lIPS/Mk7StwWsrGFCLdwAvFx+vb0xEPNLCeXD0Z17FySUU4LO7QjtpdEo+9A4lrDuOOwySxid/umPQAjUpfoGt/4IYAJ+bY4QLRkOoh7F1ysDe+lBkFnSWOINe1bb8+xHj7kkx0A13KQlSo+k4mtw1BwC40mTMpG7CtsZ80xw5d6dg7D7Yp1JOArKBFhgC7k14vWtgnygn2UBnGwHCqkaSz9C6iHdJsC7CyzsrVBuSZQjM1E1UNe+xipAfl5sdb3UXoMu2eACdkiuUCAwEAAaOCAY8wggGLMAkGA1UdEwQCMAAwDgYDVR0PAQH/BAQDAgbAMHQGA1UdIARtMGswHwYD*K0wQMBgwFgYIKwYBBQUHAgIwCgwIQWdJRHJvb3QwIAYEK0wQBjAYMBYGCCsGAQUFBwICMAoMCGFnSURjZXJ0MCYGBitMEAQDATAcMBoGCCsGAQUFBwICMA4MDGNlcnRfU1BfUHJpdjAdBgNVHQ4EFgQUGrkcbA0Yo8KyEAGAQNBzP39B8aQwgdgGA1UdIwSB0DCBzYAUGrkcbA0Yo8KyEAGAQNBzP39B8aShgZ6kgZswgZgxJDAiBgNVBAoMG0EgQ29tcGFueSBNYWtpbmcgRXZlcnl0aGluZzEQMA4GA1UEAwwHQS5DLk0uRTEmMCQGA1UEUwwdaHR0cHM6Ly9zcGlkLmFjbWUuaXQvbWV0YWRhdGExGjAYBgNVBGEMEVZBVElULTEyMzQ1Njc4OTAxMQswCQYDVQQGEwJJVDENMAsGA1UEBwwEUm9tYYIUDyYa6sa/jitstn5CD1EfgnqfweAwDQYJKoZIhvcNAQELBQADggGBAPZM2/vygD4ZbLa/ovbMHQULMv+9pHd7hBRM2wrD+BXyNmLR6S2JpJfAaD5ecsuRWEaVF3cemZgtrinGsX82qOxeSgAvJtyHfKmyKgip4eGWXBaBz8lwEgoMOJvpdHH2BBG1ixVwzXUDtDxqhCEVim7qTgV37M6fGxr3yzA28Q3LIHXeDb4cKCaElygxvWgTTiLmNiuSFzF2svbIL1thFkHDHQ2ETdkXOW7OBgG/XfhlzX6o5gcM/wDEaPW1+2v7z6EG1QkYcmyzvZ+ZQsafYR/Ps+cIaWhd4k3eQZmzqOsAvd5lRXgtnmXAQ7n70OfWIPT7H1zIgTKxR0ahobC3pJZT1nAn+IKHL7i8+Y50LKM8QOpvnWfGJr3MBiWSVJgpa7nREQFwllHVTGvVG+AeI0rzzTNKC98/ecq5hw1REkeTCTUCAbiyntbsGvVVSjt3ZnP6XZb1F1RmOEzthwyk/b39VnRKosA86a3IE1r6WgRhdPrjeR9SSRXO5cLYb8W++w==
                     </ds:X509Certificate>
                 </ds:X509Data>
             </ds:KeyInfo>
@@ -65,8 +65,8 @@
             Location="https://sp.myservice.it/saml/slo"/>
 
         <md:AttributeConsumingService index="0">
-            <md:ServiceName xml:lang="it">My Service SPID Login</md:ServiceName>
-            <md:ServiceDescription xml:lang="it">Accesso ai servizi online della mia azienda tramite SPID.</md:ServiceDescription>
+            <md:ServiceName xml:lang="it">Blu GO Login</md:ServiceName>
+            <md:ServiceDescription xml:lang="it">Accesso ai servizi online di Blu Go tramite SPID</md:ServiceDescription>
             
             <md:RequestedAttribute isRequired="true" Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
             <md:RequestedAttribute isRequired="true" Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
@@ -77,22 +77,23 @@
     </md:SPSSODescriptor>
 
     <md:Organization>
-        <md:OrganizationName xml:lang="it">AZIENDA ESEMPIO S.R.L.</md:OrganizationName>
-        <md:OrganizationDisplayName xml:lang="it">Azienda Esempio</md:OrganizationDisplayName>
-        <md:OrganizationURL xml:lang="it">https://www.myservice.it</md:OrganizationURL>
+        <md:OrganizationName xml:lang="it">Masters srl</md:OrganizationName>
+        <md:OrganizationDisplayName xml:lang="it">ALTRA FORMAZIONE SRL</md:OrganizationDisplayName>
+        <md:OrganizationURL xml:lang="it">https://www.blugo.it</md:OrganizationURL>
     </md:Organization>
 
     <md:ContactPerson contactType="other">
-        <md:GivenName>Technical</md:GivenName>
-        <md:EmailAddress>mailto:spid-tech@myservice.it</md:EmailAddress>
-        <md:TelephoneNumber>+39 012 3456789</md:TelephoneNumber>
+        <md:GivenName>Davide Gallotti</md:GivenName>
+        <md:EmailAddress>davidegallotti95@gmail.com</md:EmailAddress>
+        <md:TelephoneNumber>+393348400393</md:TelephoneNumber>
     </md:ContactPerson>
 
     <md:ContactPerson contactType="billing">
         <md:Extensions>
-            <spid:VATNumber>IT12345678901</spid:VATNumber> <spid:FiscalCode>ABCXYZAA11B222C</spid:FiscalCode> </md:Extensions>
+            <spid:VATNumber>IT02186150666</spid:VATNumber>
+        </md:Extensions>
         <md:GivenName>Billing</md:GivenName>
-        <md:EmailAddress>mailto:billing@myservice.it</md:EmailAddress>
+        <md:EmailAddress>altraformazione@pec.it</md:EmailAddress>
     </md:ContactPerson>
 
 </md:EntityDescriptor>
