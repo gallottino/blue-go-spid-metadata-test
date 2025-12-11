@@ -68,7 +68,7 @@
         <fpa:DatiAnagrafici>
           <fpa:IdFiscaleIVA>
             <fpa:IdPaese>IT</fpa:IdPaese>
-            <fpa:IdCodice>02186150666</fpa:IdCodice>
+            <fpa:IdCodice>IT02186150666</fpa:IdCodice>
           </fpa:IdFiscaleIVA>
           <fpa:Anagrafica>
             <fpa:Denominazione>srl</fpa:Denominazione>
