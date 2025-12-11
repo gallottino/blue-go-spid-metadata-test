@@ -55,7 +55,7 @@
   </md:Organization>
   <md:ContactPerson contactType="other">
     <md:Extensions>
-      <spid:VATNumber xmlns:spid="https://spid.gov.it/saml-extensions">02186150666</spid:VATNumber>
+      <spid:VATNumber xmlns:spid="https://spid.gov.it/saml-extensions">IT02186150666</spid:VATNumber>
       <spid:Private xmlns:spid="https://spid.gov.it/saml-extensions"/>
     </md:Extensions>
     <md:Company>Blu Go</md:Company>
@@ -68,7 +68,7 @@
         <fpa:DatiAnagrafici>
           <fpa:IdFiscaleIVA>
             <fpa:IdPaese>IT</fpa:IdPaese>
-            <fpa:IdCodice>IT02186150666</fpa:IdCodice>
+            <fpa:IdCodice>02186150666</fpa:IdCodice>
           </fpa:IdFiscaleIVA>
           <fpa:Anagrafica>
             <fpa:Denominazione>srl</fpa:Denominazione>
