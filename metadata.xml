@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions" xmlns:fpa="https://spid.gov.it/invoicing-extensions" entityID="https://localhost" ID="spid-php_f677c3386c7f780eeb0a3a4b7e40e1770e4b67382aed1f61cf94cca3cd00492b"><ds:Signature>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions" xmlns:fpa="https://spid.gov.it/invoicing-extensions" entityID="https://www.blugo.it" ID="spid-php_0e4b2dea1699720e0d231cf299c1e6d2f522e74d3bdb0f36b79adac8949e0b8b"><ds:Signature>
   <ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
     <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
-  <ds:Reference URI="#spid-php_f677c3386c7f780eeb0a3a4b7e40e1770e4b67382aed1f61cf94cca3cd00492b"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>59HY6gyt2zTyMI3TA3bWuuj3tSr3vZ5zzZwtZqPVZUQ=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>I19MsVX2mGxniyJ0+x7CWJje2Vupt54XSi9b/Ak5xeh6mC9WlgHrrP6RZKgBrRgIEsAQIjvHmGH9qDGYaev6bl8wsaRRRNawbQCHMGgVA7FKVaHGaw7fHit4SuIjIlQJwFXoP/+/CjAdgTXpolMot8pNRtvK4KWRVaCFPpxPEjJv9JxOsYO2ubHKWisoWEuYmaPp+SarHFZeg3goy8yfcgpdN+ZQb+OQe8uhz7d9UY/7UXe6IIhHXYLS/74aSFTBTFmTZlnVUJRK2IZiCOGpSvZokZWUrdZsmx/kaEVK3bNxdSDWA59/yzxGuQ7G3+vxMJbaGBnsg8LuzQPWsn8dccZqZYbOo5RciFfIhO6Y4OyvPb7rfatGhZEG9jY0PlsZRT79K6pCqhRnbDohiMY17XQOj2w3AF4s2byPUgNZFYNNGLcP8UQaolH5GVTVqLEBsPBV22PZtgizFpgR1/aYhZrRUQmCkuztavMcVBOZlOTPOBtR3wZJ19eB2wqFIUoM</ds:SignatureValue>
-<ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIFRDCCA6ygAwIBAgIUJOn0MMj8l6pmdpX7M+4VEDB2RW8wDQYJKoZIhvcNAQELBQAwgZExGjAYBgNVBAoMEU9yZ2FuaXphdGlvbiBOYW1lMSIwIAYDVQQDDBlPcmdhbml6YXRpb24gRGlzcGxheSBOYW1lMRowGAYDVQRTDBFodHRwczovL2xvY2FsaG9zdDETMBEGA1UEYQwKUEE6SVQtY29kZTELMAkGA1UEBhMCSVQxETAPBgNVBAcMCExvY2FsaXR5MB4XDTI1MTIxMTA5MTA1N1oXDTI3MTIxMTA5MTA1N1owgZExGjAYBgNVBAoMEU9yZ2FuaXphdGlvbiBOYW1lMSIwIAYDVQQDDBlPcmdhbml6YXRpb24gRGlzcGxheSBOYW1lMRowGAYDVQRTDBFodHRwczovL2xvY2FsaG9zdDETMBEGA1UEYQwKUEE6SVQtY29kZTELMAkGA1UEBhMCSVQxETAPBgNVBAcMCExvY2FsaXR5MIIBojANBgkqhkiG9w0BAQEFAAOCAY8AMIIBigKCAYEAralHZk0S2D4qg00HQEUlPWCGfVpAQeOJCGB6mOnNzKOk8geVrT4ZfgkgzhGHc48NG13EvErcKiSqFbyZDyzYfH9yEm/GmO0NmqFUbG1a3qQqdkfRPXvNDenQVDnB16IdhOErmpf4w7iY+lx9KguGFsl3shp/U8Dqia2yjyriL0Z5pLe/v+sGwJxQD14ADnZyAdfuS6crO9AJ1M8kSV64xkx1N2/BRe2q/Q+4wpMJOyR8CUNnZ8+IPMMUiGzxDRSkZGCLCOu/YC9rnUboFZ5qbtBLVDrppuu68r4Q0oc7zBdCbCTzquJSiBKu++kCCFFBIIA4qPeWtuL88iwc689X8FvAY1WsG2pH36RHD10YkIQ+XC6AyCM5X8jM5fFnyT11u9ewlG5cK8DzBMOM+IZKTMjH2G+8kb67LX5kXSnktRNfdPpsUoGYiOJLZpu/QFnJKMoGljBpekhfWL3CWG3PZ5p6PyGMXSjaAwxHnK8kbzvuMujAF4vLPmXkiYBNB9xlAgMBAAGjgZEwgY4wCQYDVR0TBAIwADAOBgNVHQ8BAf8EBAMCBsAwUgYDVR0gBEswSTAgBgQrTBAGMBgwFgYIKwYBBQUHAgIwChoIYWdJRGNlcnQwJQYGK0wQBAIBMBswGQYIKwYBBQUHAgIwDRoLY2VydF9TUF9QdWIwHQYDVR0OBBYEFMFX0OzWDhDmTZY3DBdLXmx7/JuDMA0GCSqGSIb3DQEBCwUAA4IBgQBQBx+CgvQ4+gbAbEXLraLdlo734sJy2jr5CbW2zc3ToYAwOMX40C4ZYnDzlme6JjDzYpp/HT0WcZJ117Y0WbFiL6P7PyxHXJTpjeVfS5wUaob4G9D7Ne4XDYfRBmeEihK22v2p+prI61OIB7en8Ux4HmoQYoRkeZwu0DApqk6lk8lT06jVQ/ZX10c+qYmQg9/T8QRRl4OULQl1g9ubhpMlejidqYkGiGmnrPK5LScORA/1dqlhvfdMXIpi+kwl5gblNmfPaE/LIx5D9ed2miGBG6bm4/hNux6Kv/axj2R4z4u/ZgGNJekRoFM5RPuIcTdnDp8ErHh76K3950XPQ851OYizMWGDUYnsRBtL76BKTljNVAKu9Ahz5KG4FplezVaFv8OIbbEv809xh9VnMjcinttymFio1HFIpztz0jgP4VTd3ipFGI3kqv1i9AhFxvuf1YrLa/SAbQpK+H75FifRYSTozTWrje4GDj6f5a2MjP6QQlBI791pVRT0Wum9ftw=</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature>
+  <ds:Reference URI="#spid-php_0e4b2dea1699720e0d231cf299c1e6d2f522e74d3bdb0f36b79adac8949e0b8b"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>5SzGTqrCwRg4/YMj/PsJ7OTQNNuaPqQneezCdAIl+g0=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>a0JO4EfP3evMFJN2vqVj5OdoKwtxrCBBt4WqJLWBk3LLXuxJnGa8bN8nho6E7QBf67AS7YOWkeDRqnWoHNXw7FcgrHI0yiUH0PjabTOa0XVLJ3/K5OZwREqepnq+qUWVRnDTa54o2VyutyFNK6dJyzznAC0S6MWxszJBHpCvEkiCMoliJQ2kzjWdP0woxnFP/DcLq05gn3OeZ/ZAzpkqNqPsGZ6exntsbEMSqLg7fHThQ4wJlqqXcg5GBHZ1iOGZo+nHt9LwJou+ecstg/MdMg69HbfxgAnWoLI1Z0ahucwGaz6hfYkpmXc3Bk4AEP3j+NXzOVzzfVljjmB20qni7gD3xBedXfi6P3Yoy7+5kJShs12M/fJllpnCL1JVZR/8EBcfRmJk+STZdT6d2xeYlp4OYLk/5IaMnNMWSt+IJaHPq/YJDGyLpYVejh0Ix2oUkDoFJzNle5R+XHgAMPSaCwON7MDin68bmEgy/OiItR3P3iryMjMirSS9dhHzL1oF</ds:SignatureValue>
+<ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIFYTCCA8mgAwIBAgIUJcTDsy+GWn3VtYsDWf1s2KhNq7kwDQYJKoZIhvcNAQELBQAwgZ8xHDAaBgNVBAoME0FMVEEgRk9STUFaSU9ORSBzcmwxGDAWBgNVBAMMD0FMVEEgRk9STUFaSU9ORTEdMBsGA1UEUwwUaHR0cHM6Ly93d3cuYmx1Z28uaXQxHDAaBgNVBGEME1ZBVElULUlUMDIxODYxNTA2NjYxCzAJBgNVBAYTAklUMRswGQYDVQQHDBJNYWdsaWFubyBkZWkgTWFyc2kwHhcNMjUxMjExMTA0NDE1WhcNMjcxMjExMTA0NDE1WjCBnzEcMBoGA1UECgwTQUxUQSBGT1JNQVpJT05FIHNybDEYMBYGA1UEAwwPQUxUQSBGT1JNQVpJT05FMR0wGwYDVQRTDBRodHRwczovL3d3dy5ibHVnby5pdDEcMBoGA1UEYQwTVkFUSVQtSVQwMjE4NjE1MDY2NjELMAkGA1UEBhMCSVQxGzAZBgNVBAcMEk1hZ2xpYW5vIGRlaSBNYXJzaTCCAaIwDQYJKoZIhvcNAQEBBQADggGPADCCAYoCggGBAKi8NWSsp789nDIX6B77suJuflazsbiATWapg6lqEPuMkVKTTMbd6PLpyXGQa4WAcWdTeewq95S/SfITe5tYm/LBxRkM8HULf5nb/jfB1PqZSyB1WU+JpkIfEdQtC+MfhM5SlOznDjzZVgXsKdskW71xwaM7FbIYXTnugNDylHY2KEEVsf3dVorG5B543pH3ZF7DRBq/5OORV+c8IXFF7OQn0/EpYC+XGO1QNcoGkaij8CTJPRvW4Pt/X1kYCqZ/yff4cp2pCsg8DT5fjZJTMz0rGBBBR1lB05fIHIjJlWG74NL8xIe3sXWIiBX4hrS195/mLM9P43r7aQ43QUBBl2wqH6EoAWSijDHP0fUnaYT3Gz5O6IUHix5BUDXcixI9jijoxXj6gjlaBMSGmJ6jCPu6asJDiFzQsLxbYH68lYjWuBHhqDHFBqh+Ew5W96bgzGpkgM0l32ODOE+T3d5leA6RlwpUgNSNpB+yIgOnntK7PD5nOjSXy9ALqW3BKC0LFQIDAQABo4GSMIGPMAkGA1UdEwQCMAAwDgYDVR0PAQH/BAQDAgbAMFMGA1UdIARMMEowIAYEK0wQBjAYMBYGCCsGAQUFBwICMAoaCGFnSURjZXJ0MCYGBitMEAQDATAcMBoGCCsGAQUFBwICMA4aDGNlcnRfU1BfUHJpdjAdBgNVHQ4EFgQUy+XR8xcxp3X48QaGGIdyUXp2hK0wDQYJKoZIhvcNAQELBQADggGBADqoIVSxos1t78pgBgMrPqUDhFuOBKVGG61PJJXAbIkEMh2ANFUtqX4ZW39eB9a/auaHw31y/FWXunNo8S0kW489TsYp1Z4yMF6/Om7w1bB8mL1okFRehUZ60Hn7O2PSTaygEK6scqSAybikhLFBgPYtiXe1K4ijpz71ty+f+rgq04SyRQTx/y6SBtQDEPKAC07utPXQWPNfWcpUGNgtC4E1DnxIc/ENEC2vYsJno3YpjZScl454yg8Hqwigg8uITuByOv5XlSMG4Z+y4lmXJmO3t/OO8tZ5bYrzLzfrvg8cDUkexYQGvepQ5u54DaTX7FPQVNjsk3HCr643vgQ73HdLk9kqqoXtvs++pXld78BgQAna9jt/oUnisanSqhopWVO4MzP3qdUpl9WgxvYHukzb6w3HvUFhvCgfkGDSAbpgEyoTkozsESMxCFEuZoW+/ccRyiFgCKwpSU3s3ntyZLmObz+hiqQFhvAuG8MMvFXgfDyI8JtrXmiFEogqypsu/A==</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature>
   <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" AuthnRequestsSigned="true" WantAssertionsSigned="true">
     <md:KeyDescriptor use="signing">
       <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
         <ds:X509Data>
-          <ds:X509Certificate>MIIFRDCCA6ygAwIBAgIUJOn0MMj8l6pmdpX7M+4VEDB2RW8wDQYJKoZIhvcNAQELBQAwgZExGjAYBgNVBAoMEU9yZ2FuaXphdGlvbiBOYW1lMSIwIAYDVQQDDBlPcmdhbml6YXRpb24gRGlzcGxheSBOYW1lMRowGAYDVQRTDBFodHRwczovL2xvY2FsaG9zdDETMBEGA1UEYQwKUEE6SVQtY29kZTELMAkGA1UEBhMCSVQxETAPBgNVBAcMCExvY2FsaXR5MB4XDTI1MTIxMTA5MTA1N1oXDTI3MTIxMTA5MTA1N1owgZExGjAYBgNVBAoMEU9yZ2FuaXphdGlvbiBOYW1lMSIwIAYDVQQDDBlPcmdhbml6YXRpb24gRGlzcGxheSBOYW1lMRowGAYDVQRTDBFodHRwczovL2xvY2FsaG9zdDETMBEGA1UEYQwKUEE6SVQtY29kZTELMAkGA1UEBhMCSVQxETAPBgNVBAcMCExvY2FsaXR5MIIBojANBgkqhkiG9w0BAQEFAAOCAY8AMIIBigKCAYEAralHZk0S2D4qg00HQEUlPWCGfVpAQeOJCGB6mOnNzKOk8geVrT4ZfgkgzhGHc48NG13EvErcKiSqFbyZDyzYfH9yEm/GmO0NmqFUbG1a3qQqdkfRPXvNDenQVDnB16IdhOErmpf4w7iY+lx9KguGFsl3shp/U8Dqia2yjyriL0Z5pLe/v+sGwJxQD14ADnZyAdfuS6crO9AJ1M8kSV64xkx1N2/BRe2q/Q+4wpMJOyR8CUNnZ8+IPMMUiGzxDRSkZGCLCOu/YC9rnUboFZ5qbtBLVDrppuu68r4Q0oc7zBdCbCTzquJSiBKu++kCCFFBIIA4qPeWtuL88iwc689X8FvAY1WsG2pH36RHD10YkIQ+XC6AyCM5X8jM5fFnyT11u9ewlG5cK8DzBMOM+IZKTMjH2G+8kb67LX5kXSnktRNfdPpsUoGYiOJLZpu/QFnJKMoGljBpekhfWL3CWG3PZ5p6PyGMXSjaAwxHnK8kbzvuMujAF4vLPmXkiYBNB9xlAgMBAAGjgZEwgY4wCQYDVR0TBAIwADAOBgNVHQ8BAf8EBAMCBsAwUgYDVR0gBEswSTAgBgQrTBAGMBgwFgYIKwYBBQUHAgIwChoIYWdJRGNlcnQwJQYGK0wQBAIBMBswGQYIKwYBBQUHAgIwDRoLY2VydF9TUF9QdWIwHQYDVR0OBBYEFMFX0OzWDhDmTZY3DBdLXmx7/JuDMA0GCSqGSIb3DQEBCwUAA4IBgQBQBx+CgvQ4+gbAbEXLraLdlo734sJy2jr5CbW2zc3ToYAwOMX40C4ZYnDzlme6JjDzYpp/HT0WcZJ117Y0WbFiL6P7PyxHXJTpjeVfS5wUaob4G9D7Ne4XDYfRBmeEihK22v2p+prI61OIB7en8Ux4HmoQYoRkeZwu0DApqk6lk8lT06jVQ/ZX10c+qYmQg9/T8QRRl4OULQl1g9ubhpMlejidqYkGiGmnrPK5LScORA/1dqlhvfdMXIpi+kwl5gblNmfPaE/LIx5D9ed2miGBG6bm4/hNux6Kv/axj2R4z4u/ZgGNJekRoFM5RPuIcTdnDp8ErHh76K3950XPQ851OYizMWGDUYnsRBtL76BKTljNVAKu9Ahz5KG4FplezVaFv8OIbbEv809xh9VnMjcinttymFio1HFIpztz0jgP4VTd3ipFGI3kqv1i9AhFxvuf1YrLa/SAbQpK+H75FifRYSTozTWrje4GDj6f5a2MjP6QQlBI791pVRT0Wum9ftw=</ds:X509Certificate>
+          <ds:X509Certificate>MIIFYTCCA8mgAwIBAgIUJcTDsy+GWn3VtYsDWf1s2KhNq7kwDQYJKoZIhvcNAQELBQAwgZ8xHDAaBgNVBAoME0FMVEEgRk9STUFaSU9ORSBzcmwxGDAWBgNVBAMMD0FMVEEgRk9STUFaSU9ORTEdMBsGA1UEUwwUaHR0cHM6Ly93d3cuYmx1Z28uaXQxHDAaBgNVBGEME1ZBVElULUlUMDIxODYxNTA2NjYxCzAJBgNVBAYTAklUMRswGQYDVQQHDBJNYWdsaWFubyBkZWkgTWFyc2kwHhcNMjUxMjExMTA0NDE1WhcNMjcxMjExMTA0NDE1WjCBnzEcMBoGA1UECgwTQUxUQSBGT1JNQVpJT05FIHNybDEYMBYGA1UEAwwPQUxUQSBGT1JNQVpJT05FMR0wGwYDVQRTDBRodHRwczovL3d3dy5ibHVnby5pdDEcMBoGA1UEYQwTVkFUSVQtSVQwMjE4NjE1MDY2NjELMAkGA1UEBhMCSVQxGzAZBgNVBAcMEk1hZ2xpYW5vIGRlaSBNYXJzaTCCAaIwDQYJKoZIhvcNAQEBBQADggGPADCCAYoCggGBAKi8NWSsp789nDIX6B77suJuflazsbiATWapg6lqEPuMkVKTTMbd6PLpyXGQa4WAcWdTeewq95S/SfITe5tYm/LBxRkM8HULf5nb/jfB1PqZSyB1WU+JpkIfEdQtC+MfhM5SlOznDjzZVgXsKdskW71xwaM7FbIYXTnugNDylHY2KEEVsf3dVorG5B543pH3ZF7DRBq/5OORV+c8IXFF7OQn0/EpYC+XGO1QNcoGkaij8CTJPRvW4Pt/X1kYCqZ/yff4cp2pCsg8DT5fjZJTMz0rGBBBR1lB05fIHIjJlWG74NL8xIe3sXWIiBX4hrS195/mLM9P43r7aQ43QUBBl2wqH6EoAWSijDHP0fUnaYT3Gz5O6IUHix5BUDXcixI9jijoxXj6gjlaBMSGmJ6jCPu6asJDiFzQsLxbYH68lYjWuBHhqDHFBqh+Ew5W96bgzGpkgM0l32ODOE+T3d5leA6RlwpUgNSNpB+yIgOnntK7PD5nOjSXy9ALqW3BKC0LFQIDAQABo4GSMIGPMAkGA1UdEwQCMAAwDgYDVR0PAQH/BAQDAgbAMFMGA1UdIARMMEowIAYEK0wQBjAYMBYGCCsGAQUFBwICMAoaCGFnSURjZXJ0MCYGBitMEAQDATAcMBoGCCsGAQUFBwICMA4aDGNlcnRfU1BfUHJpdjAdBgNVHQ4EFgQUy+XR8xcxp3X48QaGGIdyUXp2hK0wDQYJKoZIhvcNAQELBQADggGBADqoIVSxos1t78pgBgMrPqUDhFuOBKVGG61PJJXAbIkEMh2ANFUtqX4ZW39eB9a/auaHw31y/FWXunNo8S0kW489TsYp1Z4yMF6/Om7w1bB8mL1okFRehUZ60Hn7O2PSTaygEK6scqSAybikhLFBgPYtiXe1K4ijpz71ty+f+rgq04SyRQTx/y6SBtQDEPKAC07utPXQWPNfWcpUGNgtC4E1DnxIc/ENEC2vYsJno3YpjZScl454yg8Hqwigg8uITuByOv5XlSMG4Z+y4lmXJmO3t/OO8tZ5bYrzLzfrvg8cDUkexYQGvepQ5u54DaTX7FPQVNjsk3HCr643vgQ73HdLk9kqqoXtvs++pXld78BgQAna9jt/oUnisanSqhopWVO4MzP3qdUpl9WgxvYHukzb6w3HvUFhvCgfkGDSAbpgEyoTkozsESMxCFEuZoW+/ccRyiFgCKwpSU3s3ntyZLmObz+hiqQFhvAuG8MMvFXgfDyI8JtrXmiFEogqypsu/A==</ds:X509Certificate>
         </ds:X509Data>
       </ds:KeyInfo>
     </md:KeyDescriptor>
     <md:KeyDescriptor use="encryption">
       <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
         <ds:X509Data>
-          <ds:X509Certificate>MIIFRDCCA6ygAwIBAgIUJOn0MMj8l6pmdpX7M+4VEDB2RW8wDQYJKoZIhvcNAQELBQAwgZExGjAYBgNVBAoMEU9yZ2FuaXphdGlvbiBOYW1lMSIwIAYDVQQDDBlPcmdhbml6YXRpb24gRGlzcGxheSBOYW1lMRowGAYDVQRTDBFodHRwczovL2xvY2FsaG9zdDETMBEGA1UEYQwKUEE6SVQtY29kZTELMAkGA1UEBhMCSVQxETAPBgNVBAcMCExvY2FsaXR5MB4XDTI1MTIxMTA5MTA1N1oXDTI3MTIxMTA5MTA1N1owgZExGjAYBgNVBAoMEU9yZ2FuaXphdGlvbiBOYW1lMSIwIAYDVQQDDBlPcmdhbml6YXRpb24gRGlzcGxheSBOYW1lMRowGAYDVQRTDBFodHRwczovL2xvY2FsaG9zdDETMBEGA1UEYQwKUEE6SVQtY29kZTELMAkGA1UEBhMCSVQxETAPBgNVBAcMCExvY2FsaXR5MIIBojANBgkqhkiG9w0BAQEFAAOCAY8AMIIBigKCAYEAralHZk0S2D4qg00HQEUlPWCGfVpAQeOJCGB6mOnNzKOk8geVrT4ZfgkgzhGHc48NG13EvErcKiSqFbyZDyzYfH9yEm/GmO0NmqFUbG1a3qQqdkfRPXvNDenQVDnB16IdhOErmpf4w7iY+lx9KguGFsl3shp/U8Dqia2yjyriL0Z5pLe/v+sGwJxQD14ADnZyAdfuS6crO9AJ1M8kSV64xkx1N2/BRe2q/Q+4wpMJOyR8CUNnZ8+IPMMUiGzxDRSkZGCLCOu/YC9rnUboFZ5qbtBLVDrppuu68r4Q0oc7zBdCbCTzquJSiBKu++kCCFFBIIA4qPeWtuL88iwc689X8FvAY1WsG2pH36RHD10YkIQ+XC6AyCM5X8jM5fFnyT11u9ewlG5cK8DzBMOM+IZKTMjH2G+8kb67LX5kXSnktRNfdPpsUoGYiOJLZpu/QFnJKMoGljBpekhfWL3CWG3PZ5p6PyGMXSjaAwxHnK8kbzvuMujAF4vLPmXkiYBNB9xlAgMBAAGjgZEwgY4wCQYDVR0TBAIwADAOBgNVHQ8BAf8EBAMCBsAwUgYDVR0gBEswSTAgBgQrTBAGMBgwFgYIKwYBBQUHAgIwChoIYWdJRGNlcnQwJQYGK0wQBAIBMBswGQYIKwYBBQUHAgIwDRoLY2VydF9TUF9QdWIwHQYDVR0OBBYEFMFX0OzWDhDmTZY3DBdLXmx7/JuDMA0GCSqGSIb3DQEBCwUAA4IBgQBQBx+CgvQ4+gbAbEXLraLdlo734sJy2jr5CbW2zc3ToYAwOMX40C4ZYnDzlme6JjDzYpp/HT0WcZJ117Y0WbFiL6P7PyxHXJTpjeVfS5wUaob4G9D7Ne4XDYfRBmeEihK22v2p+prI61OIB7en8Ux4HmoQYoRkeZwu0DApqk6lk8lT06jVQ/ZX10c+qYmQg9/T8QRRl4OULQl1g9ubhpMlejidqYkGiGmnrPK5LScORA/1dqlhvfdMXIpi+kwl5gblNmfPaE/LIx5D9ed2miGBG6bm4/hNux6Kv/axj2R4z4u/ZgGNJekRoFM5RPuIcTdnDp8ErHh76K3950XPQ851OYizMWGDUYnsRBtL76BKTljNVAKu9Ahz5KG4FplezVaFv8OIbbEv809xh9VnMjcinttymFio1HFIpztz0jgP4VTd3ipFGI3kqv1i9AhFxvuf1YrLa/SAbQpK+H75FifRYSTozTWrje4GDj6f5a2MjP6QQlBI791pVRT0Wum9ftw=</ds:X509Certificate>
+          <ds:X509Certificate>MIIFYTCCA8mgAwIBAgIUJcTDsy+GWn3VtYsDWf1s2KhNq7kwDQYJKoZIhvcNAQELBQAwgZ8xHDAaBgNVBAoME0FMVEEgRk9STUFaSU9ORSBzcmwxGDAWBgNVBAMMD0FMVEEgRk9STUFaSU9ORTEdMBsGA1UEUwwUaHR0cHM6Ly93d3cuYmx1Z28uaXQxHDAaBgNVBGEME1ZBVElULUlUMDIxODYxNTA2NjYxCzAJBgNVBAYTAklUMRswGQYDVQQHDBJNYWdsaWFubyBkZWkgTWFyc2kwHhcNMjUxMjExMTA0NDE1WhcNMjcxMjExMTA0NDE1WjCBnzEcMBoGA1UECgwTQUxUQSBGT1JNQVpJT05FIHNybDEYMBYGA1UEAwwPQUxUQSBGT1JNQVpJT05FMR0wGwYDVQRTDBRodHRwczovL3d3dy5ibHVnby5pdDEcMBoGA1UEYQwTVkFUSVQtSVQwMjE4NjE1MDY2NjELMAkGA1UEBhMCSVQxGzAZBgNVBAcMEk1hZ2xpYW5vIGRlaSBNYXJzaTCCAaIwDQYJKoZIhvcNAQEBBQADggGPADCCAYoCggGBAKi8NWSsp789nDIX6B77suJuflazsbiATWapg6lqEPuMkVKTTMbd6PLpyXGQa4WAcWdTeewq95S/SfITe5tYm/LBxRkM8HULf5nb/jfB1PqZSyB1WU+JpkIfEdQtC+MfhM5SlOznDjzZVgXsKdskW71xwaM7FbIYXTnugNDylHY2KEEVsf3dVorG5B543pH3ZF7DRBq/5OORV+c8IXFF7OQn0/EpYC+XGO1QNcoGkaij8CTJPRvW4Pt/X1kYCqZ/yff4cp2pCsg8DT5fjZJTMz0rGBBBR1lB05fIHIjJlWG74NL8xIe3sXWIiBX4hrS195/mLM9P43r7aQ43QUBBl2wqH6EoAWSijDHP0fUnaYT3Gz5O6IUHix5BUDXcixI9jijoxXj6gjlaBMSGmJ6jCPu6asJDiFzQsLxbYH68lYjWuBHhqDHFBqh+Ew5W96bgzGpkgM0l32ODOE+T3d5leA6RlwpUgNSNpB+yIgOnntK7PD5nOjSXy9ALqW3BKC0LFQIDAQABo4GSMIGPMAkGA1UdEwQCMAAwDgYDVR0PAQH/BAQDAgbAMFMGA1UdIARMMEowIAYEK0wQBjAYMBYGCCsGAQUFBwICMAoaCGFnSURjZXJ0MCYGBitMEAQDATAcMBoGCCsGAQUFBwICMA4aDGNlcnRfU1BfUHJpdjAdBgNVHQ4EFgQUy+XR8xcxp3X48QaGGIdyUXp2hK0wDQYJKoZIhvcNAQELBQADggGBADqoIVSxos1t78pgBgMrPqUDhFuOBKVGG61PJJXAbIkEMh2ANFUtqX4ZW39eB9a/auaHw31y/FWXunNo8S0kW489TsYp1Z4yMF6/Om7w1bB8mL1okFRehUZ60Hn7O2PSTaygEK6scqSAybikhLFBgPYtiXe1K4ijpz71ty+f+rgq04SyRQTx/y6SBtQDEPKAC07utPXQWPNfWcpUGNgtC4E1DnxIc/ENEC2vYsJno3YpjZScl454yg8Hqwigg8uITuByOv5XlSMG4Z+y4lmXJmO3t/OO8tZ5bYrzLzfrvg8cDUkexYQGvepQ5u54DaTX7FPQVNjsk3HCr643vgQ73HdLk9kqqoXtvs++pXld78BgQAna9jt/oUnisanSqhopWVO4MzP3qdUpl9WgxvYHukzb6w3HvUFhvCgfkGDSAbpgEyoTkozsESMxCFEuZoW+/ccRyiFgCKwpSU3s3ntyZLmObz+hiqQFhvAuG8MMvFXgfDyI8JtrXmiFEogqypsu/A==</ds:X509Certificate>
         </ds:X509Data>
       </ds:KeyInfo>
     </md:KeyDescriptor>
@@ -23,34 +23,19 @@
     <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
     <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://localhost:8443/blugo/module.php/saml/sp/saml2-acs.php/spid" index="0" isDefault="true"/>
     <md:AttributeConsumingService index="0">
-      <md:ServiceName xml:lang="it">Blu go</md:ServiceName>
-      <md:ServiceDescription xml:lang="it">An app to help autistic people</md:ServiceDescription>
+      <md:ServiceName xml:lang="it">Blu Go</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">An app for autistic people</md:ServiceDescription>
       <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
       <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
       <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
-      <md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
-      <md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
-      <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
-      <md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
-      <md:RequestedAttribute Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
-      <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
-      <md:RequestedAttribute Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
-      <md:RequestedAttribute Name="idCard" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
       <md:RequestedAttribute Name="expirationDate" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
       <md:RequestedAttribute Name="mobilePhone" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
       <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
-      <md:RequestedAttribute Name="address" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
-      <md:RequestedAttribute Name="digitalAddress" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
-      <md:RequestedAttribute Name="domicileStreetAddress" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
-      <md:RequestedAttribute Name="domicilePostalCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
-      <md:RequestedAttribute Name="domicileMunicipality" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
-      <md:RequestedAttribute Name="domicileProvince" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
-      <md:RequestedAttribute Name="domicileNation" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
     </md:AttributeConsumingService>
   </md:SPSSODescriptor>
   <md:Organization>
-    <md:OrganizationName xml:lang="it">Blu Go</md:OrganizationName>
-    <md:OrganizationDisplayName xml:lang="it">Blu Go</md:OrganizationDisplayName>
+    <md:OrganizationName xml:lang="it">ALTA FORMAZIONE srl</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">ALTA FORMAZIONE</md:OrganizationDisplayName>
     <md:OrganizationURL xml:lang="it">https://www.blugo.it</md:OrganizationURL>
   </md:Organization>
   <md:ContactPerson contactType="other">
@@ -58,9 +43,9 @@
       <spid:VATNumber xmlns:spid="https://spid.gov.it/saml-extensions">IT02186150666</spid:VATNumber>
       <spid:Private xmlns:spid="https://spid.gov.it/saml-extensions"/>
     </md:Extensions>
-    <md:Company>Blu Go</md:Company>
-    <md:EmailAddress>info@organization.org</md:EmailAddress>
-    <md:TelephoneNumber>+3912345678</md:TelephoneNumber>
+    <md:Company>ALTA FORMAZIONE srl</md:Company>
+    <md:EmailAddress>altraformazione@pec.it</md:EmailAddress>
+    <md:TelephoneNumber>+393472769291</md:TelephoneNumber>
   </md:ContactPerson>
   <md:ContactPerson contactType="billing">
     <md:Extensions>
@@ -68,24 +53,24 @@
         <fpa:DatiAnagrafici>
           <fpa:IdFiscaleIVA>
             <fpa:IdPaese>IT</fpa:IdPaese>
-            <fpa:IdCodice>02186150666</fpa:IdCodice>
+            <fpa:IdCodice>IT02186150666</fpa:IdCodice>
           </fpa:IdFiscaleIVA>
           <fpa:Anagrafica>
-            <fpa:Denominazione>srl</fpa:Denominazione>
+            <fpa:Denominazione>Stefano Fonzi</fpa:Denominazione>
           </fpa:Anagrafica>
         </fpa:DatiAnagrafici>
         <fpa:Sede>
-          <fpa:Indirizzo>VIA STRADA DICIASSETTE, 1</fpa:Indirizzo>
+          <fpa:Indirizzo>VIA STRADA DICIASSETTE</fpa:Indirizzo>
           <fpa:NumeroCivico>1</fpa:NumeroCivico>
           <fpa:CAP>67062</fpa:CAP>
-          <fpa:Comune>Magliano</fpa:Comune>
+          <fpa:Comune>Magliano dei Marsi</fpa:Comune>
           <fpa:Provincia>AQ</fpa:Provincia>
           <fpa:Nazione>IT</fpa:Nazione>
         </fpa:Sede>
       </fpa:CessionarioCommittente>
     </md:Extensions>
-    <md:Company>Blu Go</md:Company>
-    <md:EmailAddress>d@d.it</md:EmailAddress>
-    <md:TelephoneNumber>+393348400393</md:TelephoneNumber>
+    <md:Company>ALTA FORMAZIONE srl</md:Company>
+    <md:EmailAddress>altraformazione@pec.it</md:EmailAddress>
+    <md:TelephoneNumber>+393472769291</md:TelephoneNumber>
   </md:ContactPerson>
 </md:EntityDescriptor>
